@@ -1,0 +1,22 @@
+.section-head{
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    h3{
+        padding: 10px;
+    }
+    p{
+        font-size: 18px;
+        color: #00000078;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom:30px;
+        background-color: #4D2C5E;
+        width: 100px;
+        height: 3px;
+        transform: translateX(-50%);
+    }
+}
